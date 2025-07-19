@@ -9,6 +9,7 @@ ISO_URL="https://releases.ubuntu.com/${UBUNTU_VERSION}/${ISO_NAME}"
 USB_DEVICE="/dev/sdX" # ⚠️ Replace this with your actual USB device (e.g., /dev/sdb)
 
 USERNAME="backupadmin"
+# Replace with the output of: openssl passwd -6 'yourpassword'
 HASHED_PASS='$6$rounds=4096$change_this_to_a_valid_hash'
 SSH_KEY='ssh-rsa AAAA... your_key_here'
 
